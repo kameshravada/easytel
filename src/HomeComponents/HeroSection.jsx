@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         <div className="mt-6 px-6 min-h-[80vh] flex">
           <div className="flex flex-col gap-8 items-start justify-center text-center">
-            <p className="text-4xl md:text-6xl font-semibold mb-5 leading-[3rem] md:leading-[5rem] text-start ">
+            <p className="text-3xl md:text-6xl font-semibold mb-5 leading-[3rem] md:leading-[5rem] text-start ">
               Make your business <br className="hidden md:block" />
               communication way
               <br className="hidden md:block" /> better with VoIP phones.
