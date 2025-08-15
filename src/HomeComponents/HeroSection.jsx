@@ -3,7 +3,7 @@ import { IconArrowRight, IconMenu2, IconPhoneFilled } from "@tabler/icons-react"
 const HeroSection = () => {
   return (
     <div className="">
-      <div className='bg-[url("/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-fit md:h-full md:px-4 py-3'>
+      <div className='bg-[url("/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-fit md:h-full md:px-4 py-6 md:py-3'>
         <div className="flex justify-between items-center text-white px-6">
           <div className="">
             <img src="/images/Easytel_logo.png" alt="" className="w-38 md:w-50" />
