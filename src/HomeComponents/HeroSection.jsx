@@ -6,14 +6,10 @@ import Hero from "./Hero";
 const HeroSection = () => {
   return (
     <div className="">
-      <div className='bg-[url("./public/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-full px-4 py-3'>
+      <div className='bg-[url("./images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-full px-4 py-3'>
         <div className="flex justify-between items-center text-white px-6">
           <div className="">
-            <img
-              src="./public/images/Easytel_logo.png"
-              alt=""
-              className="w-50"
-            />
+            <img src="/images/Easytel_logo.png" alt="" className="w-50" />
           </div>
           <div className="">
             <ul className="lg:flex hidden  lg:gap-10 items-center justify-center text-lg ">

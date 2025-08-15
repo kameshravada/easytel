@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center text-white px-6">
       <div className="">
-        <img src="./public/images/Easytel_logo.png" alt="" className="w-50" />
+        <img src="/images/Easytel_logo.png" alt="" className="w-50" />
       </div>
       <div className="">
         <ul className="flex gap-10 items-center justify-center text-lg ">
