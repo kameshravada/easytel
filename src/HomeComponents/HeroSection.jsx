@@ -6,7 +6,7 @@ import Hero from "./Hero";
 const HeroSection = () => {
   return (
     <div className="">
-      <div className='bg-[url("./images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-full px-4 py-3'>
+      <div className='bg-[url("/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-full px-4 py-3'>
         <div className="flex justify-between items-center text-white px-6">
           <div className="">
             <img src="/images/Easytel_logo.png" alt="" className="w-50" />
