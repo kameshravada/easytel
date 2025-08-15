@@ -1,15 +1,12 @@
-import React from "react";
-import Navbar from "./Navbar";
-import { IconArrowRight, IconPhoneFilled } from "@tabler/icons-react";
-import Hero from "./Hero";
+import { IconArrowRight, IconMenu2, IconPhoneFilled } from "@tabler/icons-react";
 
 const HeroSection = () => {
   return (
     <div className="">
-      <div className='bg-[url("/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-full px-4 py-3'>
+      <div className='bg-[url("/images/Hero_Bg.png")] bg-no-repeat bg-center bg-cover h-fit md:h-full md:px-4 py-3'>
         <div className="flex justify-between items-center text-white px-6">
           <div className="">
-            <img src="/images/Easytel_logo.png" alt="" className="w-50" />
+            <img src="/images/Easytel_logo.png" alt="" className="w-38 md:w-50" />
           </div>
           <div className="">
             <ul className="lg:flex hidden  lg:gap-10 items-center justify-center text-lg ">
@@ -24,6 +21,9 @@ const HeroSection = () => {
             <button className="hover:bg-[#39b54a]  px-4 py-1 rounded-3xl hidden xl:flex gap-2 items-center border-3 hover:border-[#39b54a] cursor-pointer text-xl">
               <IconPhoneFilled /> 1300 132 288
             </button>
+          </div>
+          <div className="">
+            <IconMenu2 className="text-3xl cursor-pointer lg:hidden" />
           </div>
         </div>
 
