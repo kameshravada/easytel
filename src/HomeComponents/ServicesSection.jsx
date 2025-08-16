@@ -22,7 +22,7 @@ const ServicesSection = () => {
                 <div className="text-xl font-semibold">{card.title}</div>
               </div>
 
-              <div className="">
+              <div className="text-sm sm:text-base leading-7 sm:leading-normal">
                 {card.description}
               </div>
             </div>

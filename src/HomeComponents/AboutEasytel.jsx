@@ -11,7 +11,7 @@ const AboutEasytel = () => {
         <div className="text-black/70 font-[Poppins] text-lg sm:text-xl lg:text-2xl text-center tracking-[0.3rem] lg:tracking-[0.8rem] flex justify-center font-semibold">
           AS EASY AS YOU GO
         </div>
-        <div className="text-black/70 font-[Poppins] md:text-lg text-start md:text-justify flex flex-col items-center gap-8 px-2 py-5 sm:p-10  ">
+        <div className="text-black/70 font-[Poppins] text-sm leading-6 md:leading-normal md:text-lg text-start md:text-justify flex flex-col items-center gap-8 px-1 py-5 sm:p-10  ">
           <p>
             Easytel stands at the forefront of Internet telephony in India,
             revolutionizing communication with our cutting-edge VoIP solutions
