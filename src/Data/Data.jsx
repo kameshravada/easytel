@@ -27,4 +27,56 @@ const serviceCards = [
   },
 ];
 
-export { serviceCards };
+const FAQData = [
+  {
+    id: 1,
+    question: "What is VoIP?",
+    answer:
+      "VoIP (Voice over Internet Protocol) takes analog audio signals from your phone, converts them into digital data, and transfers them over the Internet. It works like a regular phone, but instead of traditional telephone wiring, it uses your high-speed internet connection—helping you avoid high telephone company charges.",
+  },
+  {
+    id: 2,
+    question: "Will I save money using VoIP phone service for my business?",
+    answer:
+      "Yes. VoIP services are generally more affordable than traditional phone lines because they eliminate long-distance charges and reduce infrastructure costs. Businesses often save up to 60% on their monthly communication expenses.",
+  },
+  {
+    id: 3,
+    question:
+      "I’m looking for a VoIP phone service, why should I choose Easytelindia.com?",
+    answer:
+      "Easytelindia.com offers cost-effective VoIP solutions with features like unlimited calling, call forwarding, voicemail-to-email, and scalability. With reliable customer support and flexible plans, it’s a great fit for both small and large businesses.",
+  },
+  {
+    id: 4,
+    question: "Is VoIP a reliable option?",
+    answer:
+      "Yes, VoIP is highly reliable as long as you have a stable high-speed internet connection. Many businesses worldwide rely on VoIP for their day-to-day communication. Backup options and mobile app support make it even more dependable.",
+  },
+  {
+    id: 5,
+    question: "What features does VoIP offer that traditional phones don’t?",
+    answer:
+      "VoIP comes with advanced features such as video conferencing, call recording, auto-attendants, voicemail-to-email, virtual numbers, and seamless mobile integration—features that are either expensive or unavailable with traditional phones.",
+  },
+  {
+    id: 6,
+    question: "Do I need special equipment to use VoIP?",
+    answer:
+      "Not necessarily. You can use VoIP with a computer, smartphone, or existing desk phones using an adapter. Many businesses prefer dedicated VoIP phones, but they are optional.",
+  },
+  {
+    id: 7,
+    question: "Can I keep my existing phone number when switching to VoIP?",
+    answer:
+      "Yes, most VoIP providers support number portability, allowing you to keep your current business phone number when you switch to VoIP services.",
+  },
+  {
+    id: 8,
+    question: "Is VoIP secure?",
+    answer:
+      "VoIP can be very secure if implemented properly. Reputable providers use encryption and security protocols to protect your calls and data from unauthorized access.",
+  },
+];
+
+export { serviceCards, FAQData };

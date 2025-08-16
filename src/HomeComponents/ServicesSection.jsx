@@ -4,9 +4,9 @@ import { serviceCards } from "../Data/Data";
 
 const ServicesSection = () => {
   return (
-    <div className=" px-6  min-h-screen flex  justify-center bg-gray-100 py-10">
+    <div className=" px-6  min-h-screen flex  justify-center bg-gray-100 py-20">
       <div className="">
-        <div className="text-black/90 font-bold text-2xl sm:text-3xl lg:text-6xl flex justify-center pb-10">
+        <div className="text-black/90 text-center font-bold text-2xl sm:text-3xl lg:text-6xl flex justify-center items-center pb-10 md:pb-16">
           It’s Easy To Choose Easy
         </div>
         <div className=" grid sm:grid-cols-1 md:grid-cols-3 gap-10 md:gap-6 lg:gap-10">

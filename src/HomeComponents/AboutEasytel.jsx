@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutEasytel = () => {
   return (
-    <div className=" px-6  min-h-screen flex justify-center bg-gray-100 py-10">
+    <div className=" px-6  min-h-screen flex justify-center bg-gray-100 pt-14 py-10">
       <div className="flex flex-col items-center">
         <div className="text-black/90 font-[Poppins] font-bold text-3xl  lg:text-6xl flex justify-center pb-3 md:pb-5">
           About &nbsp;EasyTel
